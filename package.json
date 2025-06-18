@@ -1,0 +1,26 @@
+{
+  "name": "figma-cmyk-plugin",
+  "version": "1.0.0",
+  "description": "Figma plugin that converts colors to CMYK and exports with customizable settings",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch",
+    "dev": "npm run watch"
+  },
+  "keywords": [
+    "figma",
+    "plugin",
+    "cmyk",
+    "export",
+    "color-conversion"
+  ],
+  "author": "Sergio Lopez",
+  "license": "MIT",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.90.0",
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {}
+}

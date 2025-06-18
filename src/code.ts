@@ -1,6 +1,9 @@
 figma.showUI(__html__, { width: 400, height: 600 });
 
+console.log('Plugin code loaded');
+
 figma.ui.onmessage = (msg) => {
+  console.log('Received message:', msg);
   if (msg.type === 'export-selection') {
     const selection = figma.currentPage.selection;
     

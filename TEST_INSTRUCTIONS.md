@@ -16,7 +16,7 @@
    ```bash
    npm run build
    ```
-   This will compile TypeScript files to JavaScript.
+   This will use webpack to bundle TypeScript files and inline JavaScript into HTML.
 
 ## Loading the Plugin in Figma
 

@@ -51,11 +51,16 @@ npm run build
 ### Project Structure
 ```
 ├── manifest.json      # Plugin configuration
-├── code.ts           # Main plugin logic
-├── ui.html          # Plugin UI
-├── ui.ts            # UI logic
-├── package.json     # Dependencies
-└── tsconfig.json    # TypeScript config
+├── src/
+│   ├── code.ts       # Main plugin logic
+│   ├── ui.html       # Plugin UI template
+│   └── ui.ts         # UI logic
+├── dist/             # Built files (generated)
+│   ├── code.js       # Compiled plugin code
+│   └── ui.html       # UI with inlined JS
+├── package.json      # Dependencies
+├── tsconfig.json     # TypeScript config
+└── webpack.config.js # Webpack bundler config
 ```
 
 ## Usage

@@ -18,7 +18,10 @@
       "Bash(npm uninstall:*)",
       "Bash(rm:*)",
       "Bash(ls:*)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(git merge:*)",
+      "Bash(git stash:*)",
+      "Bash(npm run dev:*)"
     ],
     "deny": []
   }
